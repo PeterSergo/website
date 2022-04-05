@@ -10,8 +10,8 @@ h2:hover {
     color: red;
 }
 
-
-.subtitle{
+/* Attribute selector */
+h2[class=subtitle]{
     color: blue;
 }
 
@@ -54,4 +54,16 @@ ul>li{
 ul li{
     color: green;
 }
+
+#bildcykel{
+    width:300px;
+    border-radius: 10px;
+    /* float: 100px; */
+}
+
+/* Attribute selector med ^ efter = för att välja alla mappen */
+img[src^="../images/"]{
+    border: 10px solid black;
+}
+
 
