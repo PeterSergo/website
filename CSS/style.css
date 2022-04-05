@@ -1,0 +1,57 @@
+body{
+    background: gray;
+}
+
+h2:hover {
+    color: red;
+}
+
+.title{
+    color: red;
+}
+
+
+.subtitle{
+    color: blue;
+}
+
+#contact-us{
+    color: green;
+}
+
+#services{
+    color: green;
+}
+
+li:nth-child(2){
+    color: steelblue;
+}
+
+/* #google-link:link{
+    color: blue;
+}
+
+#google-link:visited{
+    color: red;
+} */
+
+/* Nästa */
+h2+a{
+    color: red;
+}
+
+/* Nästa inom familjen */
+textarea ~ button{
+    color: purple;
+}
+
+/* Child selector direct children */
+ul>li{
+    color: blue;
+}
+
+/* Descendant selector allt som är inuti ul */
+ul li{
+    color: green;
+}
+
